@@ -1,12 +1,114 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>book store</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="this is descriotion book store" />
+    <style>
+        body {
+            background: azure;
+        }
+
+        /* تنسيق عنصر div */
+        div.book-store {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        /* تنسيق العنوان h1 داخل div */
+        div.book-store h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        /* تنسيق الفقرات p داخل div */
+        div.book-store p {
+            color: #666;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        /* تنسيق الروابط a داخل div */
+        div.book-store a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        /* تنسيق القوائم ul و ol و dl داخل div */
+        div.book-store ul, div.book-store ol, div.book-store dl {
+            padding-left: 30px;
+        }
+
+        /* تنسيق القوائم داخل القوائم */
+        div.book-store ul ul, div.book-store ol ol, div.book-store dl dl {
+            padding-left: 20px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <h2>my name is Mohamed Saber</h2>
+    <div class="book-store">
+        <!-- comment this is course html ,welcome Mohamed saber Mohamed Rabee-->
+        <h1>This is book store</h1>
+        Mohamed Saber
+        Mohamed Rabee
+        <p class="one">this is <b>course</b> html ,welcome </p>
+        <p class="two">this is <i>course</i> html ,welcome Mohamed saber Mohamed Rabee</p>
+        <p hidden>this is course html ,welcome Mohamed saber Mohamed Rabee</p>
+        <p>this is course html ,<mark>welcome </mark>Mohamed saber Mohamed Rabee</p>
+        <p>this is course html ,<small>welcome </small>Mohamed saber Mohamed Rabee</p>
+        <p>this is course html ,<del>welcome </del>Mohamed saber Mohamed Rabee</p>
+        <p><a href="https://www.google.com/" target="_blank" title="go to Google">Google</a></p>
+        <p><a href="https://www.linkedin.com/feed/" target="_blank" title="go to facebook">linkedin</a></p>
+        <p> <a href="https://www.facebook.com/" target="_blank" title="go to facebook">facebook</a></p>
+        <h1><a href="--_._.__اكسبلور _explore _reels _repost(Video0).mp4" target="_blank" title="go to video">Videos Me</a></h1>
+        <h2><a href="1.mp4" target="_blank" title="go to video">Videos Me2</a></h2>
+        <h3><a href="mailto:mosabergh4@gmail.com" target="_blank" title="go to Email">Email Me</a></h3>
+        <img src="Screenshot 2023-08-01 162302.png" alt=" " height="100px" width="150px" />
+
+        <!--    <img src="صورتي وان صغير.jpeg" alt="" height="10px" width="30px" />-->
+
+        <ul>
+            <li>Html</li>
+            <li>Css</li>
+            <li>
+                Js
+                <ul>
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>Js</li>
+                </ul>
+            </li>
+        </ul>
+
+        <ol start="100">
+            <li>Html</li>
+            <li>Css</li>
+            <li>
+                Js
+                <ol type="A">
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>Js</li>
+                </ol>
+            </li>
+        </ol>
+
+        <dl>
+            <dt>Html</dt>
+            <dd>language of wep</dd>
+            <dd>language of wep</dd>
+            <br />
+            <hr />
+            <br />
+            <dt>Html</dt>
+            <dd>language of visuls</dd>
+            <dd>language of visuls</dd>
+        </dl>
+
 </body>
 </html>
